@@ -2,6 +2,6 @@
 -- Write Query Here
 
 
-SELECT COUNT(payment_id) AS "payments by ELEANOR HUNT" FROM payment 
+SELECT COUNT(payment_id) AS "Payments by ELEANOR HUNT" FROM payment 
 JOIN customer ON payment.customer_id = customer.customer_id WHERE
 first_name = 'ELEANOR' AND last_name = 'HUNT';
